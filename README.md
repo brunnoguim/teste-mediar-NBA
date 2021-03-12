@@ -14,5 +14,6 @@ O deploy está disponível em uma github page: ([Deploy Mediar-NBA](https://brun
 A interface do projeto foi preparada visando a simplificação do acesso aos dados, sendo que caso você (##infelizmente) não acompanhe a NBA e não conheça seus times e jogadores, não pense duas vezes para apertar o botão de "help" que deixei para te dar idéias do que pesquisar! 
 
 ## Pontos de Atenção ❗
-- A requisição das estatísticas dos jogadores é feita via a API [Ball Dont Lie](https://www.balldontlie.io/#introduction)
-- Apesar de disponibilizar informações básicas das equipes, como nome, abreviação, cidade e mais alguns dados globais, infelizmente a API que utilizei não fornece as estatísticas das equipes. Sendo assim, todos os dados referentes às equipes são estáticos e datados de 10/03/2021, já que os extraí de uma base de dados convertida de XLSX para JSON 😔
+- A requisição das estatísticas dos jogadores é feita via a API [Ball Dont Lie](https://www.balldontlie.io/#introduction);
+- As estatísticas apresentadas referem-se exclusivamente à temporada atual (2020/2021), cfe. mencionado na aplicação;
+- Apesar de disponibilizar informações básicas das equipes, como nome, abreviação, cidade e mais alguns dados globais, infelizmente a API que utilizei não fornece as estatísticas das equipes. Sendo assim, todos os dados referentes às equipes são estáticos e datados de 10/03/2021, já que os extraí de uma base de dados convertida de XLSX para JSON 😔;
