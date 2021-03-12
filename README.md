@@ -15,5 +15,6 @@ A interface do projeto foi preparada visando a simplificação do acesso aos dad
 
 ## Pontos de Atenção ⚠️
 - A requisição das estatísticas dos jogadores é feita via a API [Ball Dont Lie](https://www.balldontlie.io/#introduction);
+- Escolhi essa API por ela não precisar de key, então você não precisa criar um user só para rodar a aplicação localmente;
 - As estatísticas apresentadas referem-se exclusivamente à temporada atual (2020/2021), cfe. mencionado na aplicação;
 - Apesar de disponibilizar informações básicas das equipes, como nome, abreviação, cidade e mais alguns dados globais, infelizmente a API que utilizei não fornece as estatísticas das equipes 😔. Sendo assim, todos os dados referentes às equipes são estáticos e datados de 10/03/2021, já que os extraí de uma base de dados convertida de XLSX para JSON;
