@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco:#fff;
+    --textos-searchbar:#666;
+    --textos-display:rgb(50, 50, 50);
+    --vermelho-claro:#EF5145;
+    --vermelho-escuro:#BC3E34;
+    --azul-claro:#009CD6;
+    --azul-escuro:#0c7fa8;
+}
+
+@media(max-width: 1000px){
+    html{
+        font-size:93.75%;
+    }
+}
+
+@media(max-width: 720px){
+    html{
+        font-size:87.5%;
+    }
+}
+
+body{
+    background-color: var(--background);
+    color: var(--textos-display);
+}
+
+body, input, textarea, button{
+    font: 500 1.3rem "Montserrat", sans-serif;
+}
+
+button{
+    cursor:pointer;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+    border:none;
+    color: white;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.app-container{
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+}

@@ -1,0 +1,27 @@
+.selector-container{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 0 2rem;
+}
+
+.selector-container p{
+    line-height: 150%;
+}
+
+.selector-container div{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.selector-container button{
+    width: 10rem;
+    background-color: var(--azul-claro);
+}
+
+.selector-container button:hover{
+    background-color: var(--azul-escuro);
+}

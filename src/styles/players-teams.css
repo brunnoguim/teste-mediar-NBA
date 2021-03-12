@@ -1,0 +1,83 @@
+.players-teams-container{
+    display: flex;
+    position:initial;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem 6.5rem 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.players-teams-container p, .players-teams-container span{
+    line-height: 150%;
+}
+
+.players-teams-container button, .players-teams-container input {
+    width: 100%;
+}
+
+.input-container input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border:none;
+}
+
+.button-pesquisar{
+    background-color: var(--azul-claro);
+}
+
+.button-pesquisar:hover{
+    background-color: var(--azul-escuro);
+}
+
+.button-voltar{
+    background-color: var(--vermelho-claro);
+}
+
+.button-voltar:hover{
+    background-color: var(--vermelho-escuro);
+}
+
+.stats-container{
+    text-align: left;
+    font-weight: 400;
+}
+
+.stats-container strong{
+    line-height: 300%;
+}
+
+.stats-titles{
+    font-weight: 600;
+}
+
+.input-container{
+    display: flex;
+    position: relative;
+}
+
+.input-container i{
+    position: absolute;
+    top:27%;
+    right: 10px;
+    cursor: pointer;
+    color:#757575;
+    font-size: 1rem;
+}
+
+.container-stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-stats div{
+    width: 22px;
+    align-content: flex-end;
+}
+
+.checkbox{
+    height: 60%;
+    margin-top: 6px;
+}
