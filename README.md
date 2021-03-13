@@ -4,7 +4,7 @@
 ## Teste Mediar - NBA 🏀
 Este projeto, feito para o teste técnico da Mediar Solutions, consiste em uma aplicação para consultar estatísticas da temporada 2020/2021 da NBA, englobando tanto as estatísticas individuais dos jogadores quanto os dados de todas as equipes do campeonato.
 
-A aplicação apresenta as informações não apenas em números, como também em gráficos próprios para cada categoria (jogadores/equipes), os quais são apresentados de acordo com a busca realizada pelo usuário quanto ao nome dos jogadores/equipes.
+A aplicação apresenta as informações não apenas em números, como também em gráficos próprios para cada categoria (jogadores/equipes), os quais são apresentados de acordo com o filtro realizado pelo usuário, buscando o nome dos jogadores/equipes.
 
 ## Utilizando a Aplicação 🚀
 Quer dar uma conferida na aplicação sem ter que fazer o pull para rodar ela localmente? 
